@@ -9,7 +9,7 @@ pipeline {
         stage('code-build') {
             steps {
                 sh '''
-                     npm insall
+                     npm install
                      ng build
                    '''
             }
