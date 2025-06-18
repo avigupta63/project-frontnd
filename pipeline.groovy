@@ -25,7 +25,7 @@ pipeline {
                     secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
                 ]]) {
                     sh '''
-                        aws s3 cp --recursive dist/angular-frontend s3://mywasbucket321/
+                        aws s3 cp --recursive dist/angular-frontend s3://767828727604/
                     '''
                 }
             }
